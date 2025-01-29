@@ -9,7 +9,7 @@ function Home() {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-content">
-          <h1 className="hero-title">Hi, I'm Gowtham S L</h1>
+          <h1 className="hero-title">Hi, I'm Aswin kumar R</h1>
           <p className="hero-description">
             Passionate second-year college student dedicated to creating 
             interactive and visually stunning web experiences.
@@ -70,13 +70,13 @@ function Home() {
           
           {/* Social Icons */}
           <div className="social-links">
-            <a href="https://github.com/Gowthams012" target="_blank" rel="noopener noreferrer">
+            <a href="#" target="_blank" rel="noopener noreferrer">
               <FaGithub className="social-icon" />
             </a>
-            <a href="https://www.linkedin.com/in/gowtham-sl-1ba1122b1/" target="_blank" rel="noopener noreferrer">
+            <a href="#" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="social-icon" />
             </a>
-            <a href="mailto:slgowtham42@gmail.com">
+            <a href="#">
               <FaEnvelope className="social-icon" />
             </a>
           </div>
