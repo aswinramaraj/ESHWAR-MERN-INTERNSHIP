@@ -1,0 +1,70 @@
+import logo from './logo.svg';
+import { BrowserRouter as Router,Route,Switch,Link } from 'react-router-dom';
+import './App.css';
+import {Social}  from './media';
+import Detail from './deatil'
+import Parent from './parent'
+import Child from './child'
+import Home from './home'
+import About from './about'
+import Contact from './Contact'
+
+ 
+
+function App() {
+
+  return (
+    <Route>
+    <div>
+      <nav>
+       <ul>
+        <li>
+      <Link to='/'>Home</Link>
+        </li>
+        <li>
+      <Link to='/about'>About</Link>
+        </li>
+        <li>
+      <Link to='/contact'>Contact</Link>
+        </li>
+       </ul>
+       </nav>
+       <Switch>
+      <Route exact path='/' Component={Home}></Route>
+      <Route  path='/about' Component={About}></Route>
+
+      <Route  path='/contact' Component={Contact}></Route>
+
+    </Switch>
+    </div>
+
+  
+    </Route>
+  );
+}
+
+
+export default App;
+
+
+    {/* <img className='pro' src='https://img.freepik.com/premium-vector/print_1150217-468.jpg'></img>
+       <div className='detail'>
+        <h1 className='name'>ASWIN KUMAR</h1>
+        <h3 className='name1'>Fullstack Developer</h3>
+       </div>
+       <div className='content'>
+        <h4 className='detail1'>I'm Aswin Kumar, a Fullstack Developer. You have extensive experience working on remote projects, consulting for startups, and collaborating with teams to deliver high-quality digital products. Your expertise spans both front-end and back-end development, with a focus on user-friendly interfaces and seamless user experiences.</h4>
+       </div>
+       <Social/>
+       <div>{
+       per.map((pers) => (
+        <Detail name={pers.name} age={pers.age}/>
+       ))
+      
+}
+       </div>
+
+       <Parent/>
+        */}
+
+what the error correct

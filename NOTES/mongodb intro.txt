@@ -1,0 +1,75 @@
+mongodb is unstructured data example json and json file look like js object
+
+
+COMPASS:
+
+	compass helps to fetch data from  mongo db server means compass help u to reach mongo db ..like its client 
+
+
+MONGOSH : 
+	The mongsh dhell gives you an interactive environment where you can run queries, manage database,and perform administrative tasks.
+
+
+
+DATA MODELING:
+	nothing but fix structure of ur data paln the structure 
+
+EX: 
+name
+id
+password
+
+Schema:
+
+actual blue print or structure of ur data
+
+ex 
+employee name 
+employee details 
+employee age 
+
+
+NO SQL 
+SQL- RECORD 
+MONGO - DOCUMENT 
+SQL -TABLE 
+MONGO - COLLECTION
+COLLECTIONS ARE STORED IN DB
+MONGO WILL HV MULTIPLE DB
+
+
+1.download mongodb 
+
+2.mongodb patrh
+
+
+C:\Users\Aswin kumar N\AppData\Local\Programs\mongosh\
+
+
+{ name: "Rahul", age: "25" },{ name: "Priya", age: "28" },{ name: "Vikram", age: "30" },{ name: "Meena", age: "22" },{ name: "Arjun", age: "35" }
+
+3.set env
+
+
+
+db-name: computeras
+collection:laotop
+field:
+name:model:color:statyus:price:vendor-name
+
+:field
+
+same modal laptop
+list out particular model laptop change its status is unavailable avalaible 
+
+
+{ name: "Dell XPS 13", model: "9310", color: "Silver", status: "Available", price: "110000", vendor_name: "Dell Official" }
+{ name: "MacBook Pro", model: "M2 Pro", color: "Space Gray", status: "Available", price: "180000", vendor_name: "Apple Store" }
+{ name: "HP Spectre x360", model: "14t", color: "Nightfall Black", status: "Pre-order", price: "125000", vendor_name: "HP Store" }
+{ name: "Asus ROG Zephyrus", model: "G14", color: "Moonlight White", status: "Available", price: "140000", vendor_name: "Asus Online" }
+{ name: "Lenovo ThinkPad X1", model: "Carbon Gen 9", color: "Black", status: "Available", price: "135000", vendor_name: "Lenovo Store" }
+{ name: "Acer Predator Helios", model: "300", color: "Blue", status: "Available", price: "95000", vendor_name: "Acer Store" }
+{ name: "MSI Stealth 15M", model: "A11UEK", color: "Black", status: "Out of Stock", price: "120000", vendor_name: "MSI Official" }
+{ name: "Razer Blade 15", model: "Advanced", color: "Black", status: "Available", price: "160000", vendor_name: "Razer Store" }
+{ name: "Microsoft Surface Laptop", model: "5", color: "Platinum", status: "Available", price: "130000", vendor_name: "Microsoft Store" }
+{ name: "Samsung Galaxy Book 3", model: "Ultra", color: "Graphite", status: "Available", price: "145000", vendor_name: "Samsung Hub" }

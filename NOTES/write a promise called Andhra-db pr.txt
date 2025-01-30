@@ -1,0 +1,25 @@
+write a promise called Andhra-db pr-reach
+distance Andhra to a 5000 Andhra to b 2000 ,abdhra to c 1000
+settimeout(function,time,ardument)
+
+promise inbuild method :
+	
+	when the more than one promise in order to review them we can use promise inbuild methods according to the requirement
+
+1.promise.all
+2.promise.any
+3.promise.allsettled
+4.promise.race
+
+promise.all:
+	once it at a promise false it will stop
+promise.any:
+        give the shortest time promise provide status should be true
+promise.allsettled:
+	will display among these three status 1.fullfiled 2.rejected 3.pendind
+
+
+react.js
+	its a library of framework of javascript .rg for Netflix ,amazon html you tube
+
+path:C:\INTERNSHIP MERN\react>

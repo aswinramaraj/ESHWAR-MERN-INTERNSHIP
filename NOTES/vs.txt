@@ -1,0 +1,79 @@
+1.create a folder
+2.open cmd check(node -v)
+3.npm -v(check version of npm)
+4.npx create-react-app "app name"
+5.npm start
+      open you are at port 3000
+6.mak it work 
+    1.open u r react folder 
+         u will see ur app for folder got created
+    2.to open my app in vs code
+         go to cmd prompt
+	 cd demo
+	 code .
+     
+three important files
+1.index.html
+2.index.js
+3.index.css
+
+don't touch index files 
+
+do initially do you write your code in app js file 
+
+DOM:
+react follow vdom once here unlike html once dom get created .the changes and manipulations what we do get completed then only that part re rendered 
+
+where in html in every time we make change entire dom will be re render 
+
+in web application created by react js each and everything is called as components 
+1 functional comp0nent 
+2.class component 
+
+
+
+jsx:
+
+two paragraph one image should be display tpo\o right corner 
+writing html inside java script 
+
+
+props and states :every component il have props and pstatus  props it won't change eg. name(tata bislery). states : it changes or we can change it eg:water level in bottle 
+
+initial states full .upodate states half current states empty
+
+
+
+filpkart website:
+
+home page {grocery,mobiles ,fashion}-components
+
+mobiles:
+component name mobiles 
+props name name of version state offers stack available 
+
+routing:
+
+nothing but navigstion eg:onclick 
+
+
+React kooh:
+	early in IT industry use class component reason being status concept not available with functional components 
+	koohs is used to implement status in functional componenjt 
+type of compoenmt 
+	 use status 
+	use Effect
+	use Ref
+	use Context
+	use Reduce
+
+best exampole use Status
+
+counter clock
+stauting the initial status as zero we can implemented we can decremenet reset it using use status kooh 
+
+
+spread operator example:
+
+const 
+

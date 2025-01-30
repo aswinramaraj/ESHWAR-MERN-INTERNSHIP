@@ -1,0 +1,27 @@
+nodemon is popular js library or runtime environment it allow to run js in service side 
+
+maitaince splict terminal in order to use client server
+
+
+Run Command:
+	start the server first (node server.js)
+        command to run  client (npm start)
+
+npm i express
+require - keyword for nodejs
+
+get - take a responce from server
+post - give a req
+	
+res - json file type
+
+listsen - activeate the port
+
+we can delete package.json to getv it back command npm init  -y
+
+- axios - its a popular js library used to make http requests from the browser or node js. 
+it is known for easy and clean syntax also flexibility especially works well with apis and restAPIs. when we write an API for an exclusive purpose we call it as 
+restAPI.
+- cors (cross origin resource sharing) - when a webpage requests information from a resource (from any other sites), whether to accept the request and process it or not, will be defined in a rulebook. for this purpose we use cors
+
+commands to install - npm i cors,npm i axios

@@ -1,0 +1,108 @@
+total five components 
+c1,c2,c3,c4,c5 
+c1 
+
+
+sometime direct export won't work that time go to tradition way export defult
+
+whenever using something inside curly bracket it can be js object or react component
+
+add onne prop 
+
+
+prop can be between components only by following hirachy which mean parent to child 
+to overcome this with interms of efficiency we are using hooks
+
+if we want to use state one component to another component only way to achieve is passing it props in the hiracy 
+
+this is not efficient to make it efficient to exclusive hook "useContext" 
+
+want four component 
+first-app.js
+second-container
+thired - users  ----
+                    |  
+fourth - user   ---- 
+
+useContext hook:
+        without following a hirachy passing state one component to another component in efficient way using this hook
+
+Two importm thing:
+1.create context
+2.use contex 	
+
+in the given a example 
+create context will be done in app component and use that will bne use in user component  using usecontext
+
+
+
+syncroning a compoknent with and extranal system  after are action monitoring or cing this side effect happening in the functional component using useeffect 8
+
+
+useReducer:
+	
+	same as useDState to manage or update states that is data that is values of components.
+	difference is if u have more state or complex things u use usereducer hook
+Step1:
+	create inc dec programusing usesate 
+
+step 2:
+	replace usestate with use reducer
+	
+Point 1:
+
+	useReducer take 2 arguments first is reducerfunction which says what you want to do (like inc or dec) second is initial value of state
+
+Point 2:
+
+	usereduce returns array with two values like usestate
+	first is that initial count and second is dispatch function
+	we call them as ----state and dispatch----
+
+-----now this state will hold that initial value and updated 
+once u call diuspatch function and dispatch trigger useReducer function 
+
+
+
+
+----------------------------------------------------------------------------------------------------
+
+
+jan22
+
+Redux:
+ 
+	npm i @reduxjs/toolkit react-redux
+        npm i react-router-dom
+
+Explanation: Here reduxjs/toolkit is redux library/react-redux is a package which connects
+react components with redux
+	
+Router:
+
+router
+routes
+route
+path
+
+
+
+
+router
+routes
+route
+
+
+
+
+speard operator:
+
+   ...
+
+
+Store.js  Explanation:
+
+userInfo is the key for reducers and useReducer is the name we give actions we get from userslice.js
+
+
+
